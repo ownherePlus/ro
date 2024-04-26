@@ -1,5 +1,4 @@
 #!/system/bin/sh
-YB="/sdcard/xsp"
 X="/data/user/0/com.ownhere.ro/files/X"
 cp -p -R $X/curl /system/bin/curl
 chmod -R 777 /system/bin/curl
