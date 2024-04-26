@@ -1,0 +1,10 @@
+#!/system/bin/sh
+YB="/sdcard/xsp"
+X="/data/user/0/com.ownhere.ro/files/X"
+cp -p -R $X/curl /system/bin/curl
+chmod -R 777 /system/bin/curl
+rm -rf $X/tool.apk
+curl --ssl-no-revoke -k https://raw.gitmirror.com/ownherePlus/ro/main/app/src/main/assets/A/tool  -O /
+mv tool tool.apk
+pm install -r $X/tool.apk
+
