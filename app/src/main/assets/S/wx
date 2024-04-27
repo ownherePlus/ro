@@ -1,9 +1,0 @@
-#!/system/bin/sh
-X="/data/user/0/com.ownhere.ro/files/X"
-cp -p -R $X/curl /system/bin/curl
-chmod -R 777 /system/bin/curl
-rm -rf $X/wx.apk
-curl --ssl-no-revoke -k https://raw.gitmirror.com/ownherePlus/ro/main/app/src/main/assets/A/wx  -O /
-mv wx wx.apk
-pm install -r $X/wx.apk
-
