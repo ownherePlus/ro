@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<Config>
+    <int key="business.type" value="1" />
+    <bool key="storage.CloudMode" value="false" />
+
+    <combo key="settings.DefaultLauncher" enable="false"></combo>
+    <combo key="settings.DefaultInputmethod" enable="true">com.sohu.inputmethod.sogou/.SogouIME</combo>
+
+    <multi key="common.AutoGrantRuntimePermissionList" enable="true">
+        <str key="com.sohu.inputmethod.sogou" />
+    </multi>
+
+    <multi key="common.CanWriteSystemSettingPackages" enable="true">
+    </multi>
+
+    <multi key="security.SuperUserGrant" enable="true">
+        <str key="com.wemade.mir4global" />
+        <str key="com.neogames.realfarmworld" />
+        <str key="com.dena.a12026418" />
+        <str key="jp.goodsmile.grandsummoners_android" />
+        <str key="com.daofeng.zuhaowan" />
+        <str key="com.gamepub.mc.g" />
+        <str key="com.bluepotiongames.eosm.google.tw" />
+        <str key="com.nexon.traha" />
+        <str key="com.superplanet.evilhunter" />
+        <str key="com.kakaogames.blade2" />
+        <str key="com.xd.anothereden" />
+        <str key="com.stove.epic7.google" />
+        <str key="com.ruqi.travel" />
+        <str key="com.zf.shuashua" />
+        <str key="tw.sonet.princessconnect" />
+        <str key="com.com2us.smon.normal.freefull.google.kr.android.common" />
+        <str key="com.next.netcraft" />
+        <str key="com.next.netcraft.am" />
+        <str key="com.next.netcraft.mz" />
+        <str key="com.next.netcraft.huawei" />
+        <str key="com.next.netcraft.mi" />
+        <str key="com.next.netcraft.nearme.gamecenter" />
+        <str key="com.next.netcraft.baidu" />
+        <str key="com.next.netcraft.vivo" />
+        <str key="com.tencent.tmgp.netcraftyouyi" />
+        <str key="com.next.netcraft.aligames" />
+        <str key="com.next.netcraft.m4399" />
+        <str key="com.mcboxol.netcraft" />
+    </multi>
+
+    <multi key="common.AllowdActivityPackagesWhileRestrictStartActivity" enable="false">
+    </multi>
+
+    <combo key="security.PackageVerify.URL" enable="true">http://audit.vm.gc.com.cn:8811/audit/app/checkNewAppWhite.html</combo>
+
+    <int key="security.RiskyJudgmentWay" value="0" />
+    <combo key="security.RiskApp.URL" enable="true">http://audit.vm.gc.com.cn:8811/audit/app/blocklist.html</combo>
+
+    <combo key="report.AppCrash.URL" enable="true">http://gmonitor.vm.gc.com.cn:8813/gather-proxy/gatherCrash.html</combo>
+    <combo key="report.AppInstallation.URL" enable="true">http://gmonitor.vm.gc.com.cn:8813/gather-proxy/game/install.html</combo>
+
+    <bool key="common.SystemUI.HideStatusBar" value="false" />
+    <bool key="common.SystemUI.DisableCaptionbarDropdownPanel" value="false" />
+    <combo key="common.SystemUI.Vendor" enable="true">红手指云手机</combo>
+
+    <bool key="common.PackageManager.DisablePackageInstallation" value="false" />
+    <bool key="common.Battery.Variable" value="false" />
+    <bool key="common.HideVpnConfirmDialog" value="false" />
+    <bool key="common.SupportDynamicProperties" value="true" />
+    <bool key="common.SystemUI.HideCrashReportActivity" value="true" />
+    <bool key="common.PackageManager.AutoGrantPermission" value="true" />
+    <bool key="common.OmitSafemode" value="true" />
+    <bool key="common.DisableNotification" value="false" />
+    <multi key="security.Apps.WhiteList" enable="true">
+        <str key="com.ais.foxsquirrel.coc" />
+        <str key="com.ais.foxsquirrel.blct" />
+        <str key="com.ais.jxqy.zes" />
+        <str key="com.ais.em.xingtlbb" />
+        <str key="com.ais.xiuzhen.zhengshi" />
+        <str key="com.android.market" />
+        <str key="com.android.launcher3" />
+    </multi>
+    <combo key="report.AppInstallationSuccess.URL" enable="true">http://game.vm.gc.com.cn:8805/game/appOperation/appRecord.html</combo>
+    <combo key="report.AppExit.URL" enable="true">http://gmonitor.vm.gc.com.cn:8813/gather-proxy/game/run.html</combo>
+    <combo key="config.ReportServer" enable="true">https://d.gc.com.cn/hsz/inner/post/pushPadNotification</combo>
+    <combo key="config.Notification.Rules" enable="true">--disable</combo>
+    <multi key="config.Launcher.HiddenApplications" enable="true">
+        <str key="com.android.email" />
+        <str key="com.android.inputmethod.latin" />
+        <str key="com.sohu.inputmethod.sogou" />
+        <str key="com.android.settings.ext" />
+        <str key="com.android.quicksearchbox" />
+        <str key="com.android.messaging" />
+        <str key="com.android.gallery3d" />
+        <str key="com.android.dialer" />
+        <str key="com.android.deskclock" />
+        <str key="com.android.camera2" />
+        <str key="com.android.calendar" />
+        <str key="net.sourceforge.opencamera" />
+    </multi>
+    <combo key="config.Market.GameServer" enable="true">http://game.vm.gc.com.cn:8805/game</combo>
+    <combo key="config.Launcher.RecommendServer" enable="true">http://deskapp.vm.gc.com.cn:8808/recommendserver</combo>
+    <combo key="confi
